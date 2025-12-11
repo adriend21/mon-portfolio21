@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Mon Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">Mr Despres Adrien</a>
+        <nav class="navbar">
+            <a href="index.html" class="btn-nav active">Home</a>
+            <a href="about.html" class="btn-nav">About Me</a>
+            <a href="projets.html" class="btn-nav">Projets</a>
+            <a href="contact.html" class="btn-nav">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="home-content">
+            <h1>Hi, I'm Despres Adrien</h1>
+            <h3>Etudiant en licence Mathématique à l'ULCO de Calais</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+               Adipisci laborum molestiae saepe iste,voluptatum quae porro
+               nam dolorum mollitia, ea tenetur temporibus quos eveniet sequi
+               quia accusamus?</p>
+            <div class="btn-box">
+                <a href="#">Hire Me</a>
+                <a href="#">Let's Talk</a>
+            </div>
+        </div>
+
+        <div class="home-sci">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </section>
+</body>
+</html>
