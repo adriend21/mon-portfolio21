@@ -403,3 +403,176 @@ body {
     background: #00abf0;
     color: #081b29;
 }
+
+/* ========================================
+   📱 VERSION MOBILE (RESPONSIVE)
+======================================== */
+
+/* Tablettes (écrans moyens) */
+@media (max-width: 900px) {
+    html {
+        font-size: 55%; /* Réduit la taille globale */
+    }
+    
+    .header {
+        padding: 0 50px;
+    }
+    
+    .home {
+        padding: 0 5%;
+    }
+}
+
+/* Téléphones (petits écrans) */
+@media (max-width: 768px) {
+    html {
+        font-size: 50%;
+    }
+    
+    .header {
+        padding: 0 30px;
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        gap: 15px;
+    }
+    
+    .navbar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .navbar a {
+        margin-left: 0;
+        font-size: 16px;
+        padding: 8px 15px;
+    }
+    
+    .home {
+        padding: 100px 5% 50px;
+        background-position: center;
+    }
+    
+    .home-content h1 {
+        font-size: 40px;
+    }
+    
+    .home-content h3 {
+        font-size: 24px;
+    }
+    
+    .home-content p {
+        font-size: 14px;
+    }
+    
+    .btn-box {
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+        gap: 15px;
+    }
+    
+    .btn-box a {
+        width: 100%;
+    }
+    
+    .home-sci {
+        width: 100%;
+        justify-content: center;
+        bottom: 20px;
+    }
+    
+    /* About page */
+    .about {
+        padding: 80px 5%;
+    }
+    
+    .about img {
+        width: 200px;
+        position: static;
+        margin-bottom: 20px;
+    }
+    
+    .about h2 {
+        font-size: 40px;
+    }
+    
+    .about p {
+        font-size: 16px;
+    }
+    
+    /* Projets page */
+    .projets {
+        padding: 80px 5%;
+        min-height: auto;
+    }
+    
+    .projets img {
+        position: static;
+        width: 200px;
+        margin: 0 auto 30px;
+        display: block;
+    }
+    
+    .projets h2 {
+        font-size: 40px;
+    }
+    
+    .projets-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .projets-box h3 {
+        font-size: 22px;
+    }
+    
+    /* Contact page */
+    .contact {
+        padding: 80px 5%;
+    }
+    
+    .contact h2 {
+        font-size: 40px;
+    }
+    
+    .contact-form {
+        padding: 0 10px;
+    }
+}
+
+/* Très petits téléphones */
+@media (max-width: 450px) {
+    html {
+        font-size: 45%;
+    }
+    
+    .logo {
+        font-size: 20px;
+    }
+    
+    .header {
+        padding: 15px;
+    }
+    
+    .home-content h1 {
+        font-size: 32px;
+    }
+    
+    .home-content h3 {
+        font-size: 20px;
+    }
+    
+    .home-sci {
+        width: 160px;
+    }
+    
+    .home-sci a {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+    }
+}
+
